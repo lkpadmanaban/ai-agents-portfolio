@@ -1,5 +1,6 @@
 # Engineering Run Report: Project 01 - ReAct Research & Briefing Agent
 
+**Author**: Lokesh Kumar Padmanaban ([@lkpadmanaban](https://github.com/lkpadmanaban))  
 **Date**: September 1, 2026  
 **Status**: Executed Successfully  
 **Portfolio Category**: Single-Agent Systems / Tool Use / Guardrails  

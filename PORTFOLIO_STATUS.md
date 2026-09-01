@@ -1,7 +1,7 @@
 # AI Agent Master Portfolio & Learning Matrix
 
-**Repository**: `ai-agent-portfolio`  
-**Lead Architect & Mentor**: Principal AI Engineer  
+**Repository**: `ai-agents-portfolio`  
+**Author & Maintainer**: Lokesh Kumar Padmanaban ([@lkpadmanaban](https://github.com/lkpadmanaban))  
 **Last Updated**: September 1, 2026  
 **Target Milestone**: 100+ Production-Grade Agent Projects Across Modern AI Ecosystems
 

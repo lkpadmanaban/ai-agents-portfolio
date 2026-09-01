@@ -1,8 +1,7 @@
-# Coach Notes & Master Technical Breakdown: Project 01
+# Engineering Deep-Dive & Architecture Notes: Project 01
 
 **Project Name**: Autonomous ReAct Research & Briefing Agent with Citation Guardrails  
-**Audience**: Complete Beginner to Advanced Practitioner  
-**Author**: Principal AI Engineer, AI Architect & Mentor  
+**Author**: Lokesh Kumar Padmanaban ([@lkpadmanaban](https://github.com/lkpadmanaban))  
 **Date**: September 1, 2026
 
 ---
