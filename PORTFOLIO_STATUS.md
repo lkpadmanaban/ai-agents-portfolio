@@ -19,27 +19,25 @@
 
 ---
 
-## 🧭 Architecture Diversity & Skill Coverage Matrix
+## 🧭 Architecture Diversity & Framework Matrix
 
-| Architecture Category | Target Status | Projects in Portfolio | Primary Technologies |
+| Architecture & Paradigm | Target Status | Planned / Covered Projects | Frameworks & Technologies |
 | :--- | :--- | :--- | :--- |
-| **Single-Agent Systems** | 🟢 Active | `01-react-research-brief-agent` | Python, ReAct Loop, State Machine |
-| **Tool Use & Execution** | 🟢 Active | `01-react-research-brief-agent` | ToolRegistry, JSON Schemas, Error Isolation |
-| **Guardrails & Verification** | 🟢 Active | `01-react-research-brief-agent` | Citation Grounding, N-gram Containment |
-| **Multi-Agent Systems** | 🟡 Next Up (Project 02) | *Planned: Orchestrator-Worker* | Subagents, Message Passing, Consensus |
-| **Model Context Protocol (MCP)** | ⚪ In Queue | *Planned: Custom MCP Client/Server* | JSON-RPC, MCP SDK, Resource Exposing |
-| **RAG & Hybrid Search** | ⚪ In Queue | *Planned: Agentic Vector + BM25 RAG* | Vector Store, Chunking, Re-ranking |
-| **Memory Systems** | ⚪ In Queue | *Planned: Short/Long Term Epodic Memory*| Vector Memory, Scratchpad, Entity Graph |
-| **Autonomous Workflows** | ⚪ In Queue | *Planned: Plan-and-Solve State Machine* | DAG Engines, Deterministic Pipelines |
-| **Browser Automation Agents**| ⚪ In Queue | *Planned: Headless Web Investigator* | Playwright, DOM Traversal, Vision Parse |
-| **Coding & Refactor Agents** | ⚪ In Queue | *Planned: Autonomous Patch & Test Agent*| AST Parser, Diff Engine, Test Runners |
-| **Voice & Live Stream Agents**| ⚪ In Queue | *Planned: Bidirectional Voice Assistant*| Gemini Live WebSockets, VAD Audio |
-| **Multimodal / Vision Agents**| ⚪ In Queue | *Planned: Diagram & UI Reverse-Engineer* | Multimodal Flash, Image Analysis |
-| **Security & Safety Agents** | ⚪ In Queue | *Planned: Vulnerability Scanner Agent* | SAIF, Prompt Injection Defenses |
-| **Azure AI Agent Framework** | ⚪ In Queue | *Planned: Azure OpenAI Agent Service* | Azure AI Foundry, AutoGen Studio |
-| **Microsoft Copilot Agents** | ⚪ In Queue | *Planned: Declarative Copilot Extension*| Copilot Studio, Graph Connectors |
-| **Business Process Agents** | ⚪ In Queue | *Planned: Autonomous Invoice & ERP Bot*| Document Extraction, Workflow Routing |
-| **Data Analytics Agents** | ⚪ In Queue | *Planned: Text-to-SQL + Chart Generator*| BigQuery/DuckDB, Vega-Lite/Matplotlib |
+| **ReAct & Deterministic Guardrails** | 🟢 Active | `01-react-research-brief-agent` | Pure Python, State Machines, Regex/N-gram Guardrails |
+| **Hierarchical Multi-Agent & Dynamic Delegation** | 🟡 Next Up (Project 02) | `02-leader-worker-orchestration` | Supervisor-Worker, Message Bus, Consensus Engine |
+| **Model Context Protocol (MCP) Client & Server**| ⚪ In Queue (Project 03) | `03-mcp-enterprise-tool-server` | MCP SDK, JSON-RPC 2.0, Standardized Resources |
+| **Loop Engineering: Self-Correcting Reflection** | ⚪ In Queue (Project 04) | `04-reflexion-self-correcting-agent` | Reflexion, Actor-Critic Loops, Dynamic Memory |
+| **Agentic Graph RAG & Hybrid Retrieval** | ⚪ In Queue (Project 05) | `05-agentic-graph-rag` | Graph Querying, HyDE, Corrective RAG (CRAG) |
+| **Human-in-the-Loop (HITL) Assistive Workflows** | ⚪ In Queue (Project 06) | `06-hitl-approval-workflow-agent` | LangGraph State Graph, Checkpoints, Interrupts |
+| **Autonomous Self-Healing Coding Agent** | ⚪ In Queue (Project 07) | `07-self-healing-code-patcher` | AST Parsers, Pytest Runner, Diff Application |
+| **Browser & DOM Navigation Agent** | ⚪ In Queue (Project 08) | `08-browser-dom-navigator` | Playwright, Vision/DOM Parsing, Accessibility Tree |
+| **Streaming Live Voice & Multimodal Agent** | ⚪ In Queue (Project 09) | `09-bidirectional-voice-live-agent` | Gemini Live WebSocket API, VAD Audio Stream |
+| **Microsoft Semantic Kernel & Copilot Agent** | ⚪ In Queue (Project 10) | `10-semantic-kernel-copilot-plugin` | Microsoft Semantic Kernel, OpenAPI Plugins |
+| **LlamaIndex Agentic Workflow Engine** | ⚪ In Queue (Project 11) | `11-llamaindex-event-workflow-agent` | LlamaIndex Workflows, Event-Driven Async |
+| **Azure AI Foundry / AutoGen Multi-Agent Swarm** | ⚪ In Queue (Project 12) | `12-autogen-conversational-swarm` | AutoGen, GroupChat Manager, Structured Debate |
+| **Business Process & ERP Workflow Agent** | ⚪ In Queue (Project 13) | `13-autonomous-invoice-erp-pipeline` | Document Extraction, Pydantic V2, Webhook Routing |
+| **Data Analytics & Text-to-SQL Graph Agent** | ⚪ In Queue (Project 14) | `14-data-analytics-text-to-sql-agent`| DuckDB/BigQuery, Vega-Lite, Data Validation |
+| **Security & Adversarial Guardrails Agent** | ⚪ In Queue (Project 15) | `15-saif-security-scanner-agent` | Prompt Injection Defenses, OWASP Top 10 for LLMs |
 
 ---
 
