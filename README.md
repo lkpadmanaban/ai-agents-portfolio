@@ -19,6 +19,7 @@ Every project in this repository adheres strictly to the **PLAN -> BUILD -> VALI
 | # | Project Name | Architecture Category | Key Technologies | Status |
 | :-: | :--- | :--- | :--- | :---: |
 | **01** | [ReAct Research & Briefing Agent](./projects/01-react-research-brief-agent/) | Single-Agent / Tool Use / Guardrails | Python, ReAct Loop, Tool Registry, Citation Guardrails | 🟢 Complete |
+| **02** | [Hierarchical Multi-Agent Orchestrator](./projects/02-hierarchical-multi-agent-orchestrator/) | Multi-Agent / Supervisor-Worker / FDE | Typed Message Bus, Domain Workers, Consensus Veto Engine | 🟢 Complete |
 
 ---
 

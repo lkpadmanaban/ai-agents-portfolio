@@ -11,11 +11,11 @@
 
 | Metric | Current Count / Value | Target (1 Year) |
 | :--- | :--- | :--- |
-| **Total Projects Completed** | **1** | 100+ |
-| **Active Architecture Paradigms Covered** | 1 (ReAct + Tool Use + Guardrails) | 16+ Paradigms |
-| **Total Unit/Integration Test Coverage** | 100% (10/10 Passing) | 100% |
-| **Framework Diversity** | Pure Python, Standard Library, MCP Envelopes | Full Spectrum |
-| **Average Token Cost Per Run** | < $0.0004 (Deterministic 0-cost CI) | Cost-Optimized |
+| **Total Projects Completed** | **2** | 100+ |
+| **Active Architecture Paradigms Covered** | 2 (ReAct + Hierarchical Multi-Agent) | 16+ Paradigms |
+| **Total Unit/Integration Test Coverage** | 100% (16/16 Passing across projects) | 100% |
+| **Framework Diversity** | Pure Python, Standard Library, Supervisor-Worker | Full Spectrum |
+| **Average Token Cost Per Run** | < $0.0004 (Zero-Cost Deterministic CI) | Cost-Optimized |
 
 ---
 
@@ -23,9 +23,9 @@
 
 | Architecture & Paradigm | Target Status | Planned / Covered Projects | Frameworks & Technologies |
 | :--- | :--- | :--- | :--- |
-| **ReAct & Deterministic Guardrails** | 🟢 Active | `01-react-research-brief-agent` | Pure Python, State Machines, Regex/N-gram Guardrails |
-| **Hierarchical Multi-Agent & Dynamic Delegation** | 🟡 Next Up (Project 02) | `02-leader-worker-orchestration` | Supervisor-Worker, Message Bus, Consensus Engine |
-| **Model Context Protocol (MCP) Client & Server**| ⚪ In Queue (Project 03) | `03-mcp-enterprise-tool-server` | MCP SDK, JSON-RPC 2.0, Standardized Resources |
+| **ReAct & Deterministic Guardrails** | 🟢 Complete | `01-react-research-brief-agent` | Pure Python, State Machines, Regex/N-gram Guardrails |
+| **Hierarchical Multi-Agent & Dynamic Delegation** | 🟢 Complete | `02-hierarchical-multi-agent-orchestrator` | Supervisor-Worker, Message Bus, Consensus Engine |
+| **Model Context Protocol (MCP) Client & Server**| 🟡 Next Up (Project 03) | `03-mcp-enterprise-tool-server` | MCP SDK, JSON-RPC 2.0, Standardized Resources |
 | **Loop Engineering: Self-Correcting Reflection** | ⚪ In Queue (Project 04) | `04-reflexion-self-correcting-agent` | Reflexion, Actor-Critic Loops, Dynamic Memory |
 | **Agentic Graph RAG & Hybrid Retrieval** | ⚪ In Queue (Project 05) | `05-agentic-graph-rag` | Graph Querying, HyDE, Corrective RAG (CRAG) |
 | **Human-in-the-Loop (HITL) Assistive Workflows** | ⚪ In Queue (Project 06) | `06-hitl-approval-workflow-agent` | LangGraph State Graph, Checkpoints, Interrupts |
@@ -48,7 +48,14 @@
 - **Directory**: `projects/01-react-research-brief-agent/`
 - **Key Modules**: `src/agent.py`, `src/tools.py`, `src/guardrails.py`, `src/models.py`, `src/cli.py`
 - **Docs**: [Coach Notes](./projects/01-react-research-brief-agent/docs/coach-notes.md) | [Run Report](./projects/01-react-research-brief-agent/docs/run-report.md)
-- **Status**: Production Ready & Fully Tested (100% Pass)
+- **Status**: Production Ready & Fully Tested (10/10 Passing)
+
+### [Project 02: Hierarchical Multi-Agent Enterprise Migration Orchestrator](./projects/02-hierarchical-multi-agent-orchestrator/)
+- **Paradigm**: Supervisor-Worker Multi-Agent System with Consensus Arbitration & FDE Focus
+- **Directory**: `projects/02-hierarchical-multi-agent-orchestrator/`
+- **Key Modules**: `src/orchestrator.py`, `src/workers.py`, `src/consensus.py`, `src/models.py`, `src/cli.py`
+- **Docs**: [FDE Field Manual](./projects/02-hierarchical-multi-agent-orchestrator/docs/coach-notes.md) | [Run Report](./projects/02-hierarchical-multi-agent-orchestrator/docs/run-report.md)
+- **Status**: Production Ready & Fully Tested (6/6 Passing)
 
 ---
 
