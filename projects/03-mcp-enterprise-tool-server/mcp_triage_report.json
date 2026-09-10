@@ -1,0 +1,8 @@
+{
+  "triage_summary": "Incident analysis for 'auth-service' concluded.",
+  "compliance_audit_posture": "COMPLIANT",
+  "incident_ticket": "INC-2026-9042",
+  "diagnosed_root_cause": "Pod 'payment-processor-production-78d9b-x92' is failing with CrashLoopBackOff (OOMKilled (Exit 137)). Restart count: 8.",
+  "recommended_fde_action": "Increase memory limit from 512Mi to 1Gi in Helm values.yaml and trigger rolling deployment.",
+  "mcp_calls_made": 3
+}

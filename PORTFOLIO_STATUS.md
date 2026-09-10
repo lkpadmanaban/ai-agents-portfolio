@@ -11,10 +11,10 @@
 
 | Metric | Current Count / Value | Target (1 Year) |
 | :--- | :--- | :--- |
-| **Total Projects Completed** | **2** | 100+ |
-| **Active Architecture Paradigms Covered** | 2 (ReAct + Hierarchical Multi-Agent) | 16+ Paradigms |
-| **Total Unit/Integration Test Coverage** | 100% (16/16 Passing across projects) | 100% |
-| **Framework Diversity** | Pure Python, Standard Library, Supervisor-Worker | Full Spectrum |
+| **Total Projects Completed** | **3** | 100+ |
+| **Active Architecture Paradigms Covered** | 3 (ReAct + Multi-Agent + MCP Server/Client) | 16+ Paradigms |
+| **Total Unit/Integration Test Coverage** | 100% (23/23 Passing across projects) | 100% |
+| **Framework Diversity** | Pure Python, Standard Library, MCP Protocol | Full Spectrum |
 | **Average Token Cost Per Run** | < $0.0004 (Zero-Cost Deterministic CI) | Cost-Optimized |
 
 ---
@@ -25,8 +25,8 @@
 | :--- | :--- | :--- | :--- |
 | **ReAct & Deterministic Guardrails** | 🟢 Complete | `01-react-research-brief-agent` | Pure Python, State Machines, Regex/N-gram Guardrails |
 | **Hierarchical Multi-Agent & Dynamic Delegation** | 🟢 Complete | `02-hierarchical-multi-agent-orchestrator` | Supervisor-Worker, Message Bus, Consensus Engine |
-| **Model Context Protocol (MCP) Client & Server**| 🟡 Next Up (Project 03) | `03-mcp-enterprise-tool-server` | MCP SDK, JSON-RPC 2.0, Standardized Resources |
-| **Loop Engineering: Self-Correcting Reflection** | ⚪ In Queue (Project 04) | `04-reflexion-self-correcting-agent` | Reflexion, Actor-Critic Loops, Dynamic Memory |
+| **Model Context Protocol (MCP) Client & Server**| 🟢 Complete | `03-mcp-enterprise-tool-server` | MCP SDK, JSON-RPC 2.0, Standardized Resources |
+| **Loop Engineering: Self-Correcting Reflection** | 🟡 Next Up (Project 04) | `04-reflexion-self-correcting-agent` | Reflexion, Actor-Critic Loops, Dynamic Memory |
 | **Agentic Graph RAG & Hybrid Retrieval** | ⚪ In Queue (Project 05) | `05-agentic-graph-rag` | Graph Querying, HyDE, Corrective RAG (CRAG) |
 | **Human-in-the-Loop (HITL) Assistive Workflows** | ⚪ In Queue (Project 06) | `06-hitl-approval-workflow-agent` | LangGraph State Graph, Checkpoints, Interrupts |
 | **Autonomous Self-Healing Coding Agent** | ⚪ In Queue (Project 07) | `07-self-healing-code-patcher` | AST Parsers, Pytest Runner, Diff Application |
@@ -56,6 +56,13 @@
 - **Key Modules**: `src/orchestrator.py`, `src/workers.py`, `src/consensus.py`, `src/models.py`, `src/cli.py`
 - **Docs**: [FDE Field Manual](./projects/02-hierarchical-multi-agent-orchestrator/docs/coach-notes.md) | [Run Report](./projects/02-hierarchical-multi-agent-orchestrator/docs/run-report.md)
 - **Status**: Production Ready & Fully Tested (6/6 Passing)
+
+### [Project 03: Model Context Protocol (MCP) Enterprise Tool Server & Client](./projects/03-mcp-enterprise-tool-server/)
+- **Paradigm**: Standards & Interoperability / MCP JSON-RPC 2.0 Specification
+- **Directory**: `projects/03-mcp-enterprise-tool-server/`
+- **Key Modules**: `src/protocol.py`, `src/server.py`, `src/client.py`, `src/cli.py`
+- **Docs**: [FDE Field Manual](./projects/03-mcp-enterprise-tool-server/docs/coach-notes.md) | [Run Report](./projects/03-mcp-enterprise-tool-server/docs/run-report.md)
+- **Status**: Production Ready & Fully Tested (7/7 Passing)
 
 ---
 
